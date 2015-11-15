@@ -1,4 +1,4 @@
-LODLaundroma tCrawler
+LODLaundromat Crawler
 ===========
 
 A small and simple dataset crawler on LOD Laundromat for Quality Assessment
@@ -8,6 +8,7 @@ Pre-requisites
 	- RDFLib
 	- RDFLib-JSONLD
 	- pyparsing v. 1.5.7
+	- SPARQLWrapper
 
 
 RDFLib : easy_install rdflib [Requires SUDO rights]
