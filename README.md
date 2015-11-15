@@ -8,7 +8,9 @@ Pre-requisites
 	- RDFLib
 	- RDFLib-JSONLD
 	- pyparsing v. 1.5.7
-	- SPARQLWrapper
+	- SPARQLWrapper (installed with RDFLib)
+	- rdfextras
+	- requests
 
 
 RDFLib : easy_install rdflib [Requires SUDO rights]
@@ -19,3 +21,7 @@ RDFLib-JSONLD
 	(a) git clone https://github.com/RDFLib/rdflib-jsonld.git
 	(b) python setup.py build
 	(c) python setup.py install [Requires SUDO rights]
+
+rdfextras : easy_install rdfextras [Requires SUDO rights]
+
+requests : easy_install requests [Requires SUDO rights]
